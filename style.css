@@ -11,7 +11,7 @@ body{
     width: 100%;
     
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-image: linear-gradient(to right, #210e8a 0%, rgb(23, 88, 178) 100%);
 }
 
 #todo-controls{
