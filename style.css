@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+#todo-controls{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 2rem;
+    padding: 0;
+}
+
+.todo-input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 4rem;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.todo-button{
+
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    background-color: #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+
+}
+
+.todos ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+
+}
+
+.todos li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    width: 280px;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+}
+
+button.delete{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+}
+
+button.clear-list{
+    background-color: #D63423;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+    padding: 10px;
+    color: #fff;
+}
